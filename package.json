@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "postinstall": "husky install && npx husky add .husky/pre-commit 'npx lint-staged'",
-        "test": "jest",
+        "test": "jest --watchAll",
         "test:staged": "jest"
     },
     "lint-staged": {
