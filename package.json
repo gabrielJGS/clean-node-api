@@ -1,0 +1,32 @@
+{
+    "name": "clean-node-api",
+    "version": "1.0.0",
+    "description": "Api developed learning TDD and Clean Code principles",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gabrielJGS/clean-node-api.git"
+    },
+    "keywords": [
+        "tdd",
+        "clean",
+        "code",
+        "node",
+        "api"
+    ],
+    "author": "Gabriel José",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gabrielJGS/clean-node-api/issues"
+    },
+    "homepage": "https://github.com/gabrielJGS/clean-node-api#readme",
+    "devDependencies": {
+        "husky": "^7.0.4",
+        "jest": "^27.5.1",
+        "lint-staged": "^12.3.7",
+        "standard": "^16.0.4"
+    }
+}
