@@ -4,11 +4,13 @@
     "description": "Api developed learning TDD and Clean Code principles",
     "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "ola": "standard --fix"
     },
     "lint-staged": {
         "*.js": [
-            "standard --fix", "git add"
+            "standard --fix",
+            "git add"
         ]
     },
     "husky": {
